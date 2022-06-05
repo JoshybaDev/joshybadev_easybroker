@@ -26,6 +26,8 @@ else
 }
 
 ```
+### Aplicacion en heroku para ver su uso con la version de prueba
+[https://probandoeasybroker.herokuapp.com/](https://probandoeasybroker.herokuapp.com/).
 
 ## Installing JoshybaDev/EasyBroker
 
