@@ -1,0 +1,41 @@
+{
+    "name": "joshybadev/easybroker",
+    "description": "easybroker is a PHP client library consult copy easybroker_gem",
+	"type": "library",
+    "keywords": [
+		"easybroker",
+        "framework",
+        "http",
+        "rest",
+        "web service",
+        "curl",
+        "client"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Gomez Rodriguez",
+            "email": "ingjoseisraelgr@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5 || ^8.0"
+    },
+    "suggest": {
+        "ext-curl": "Required for CURL handler support",
+        "ext-intl": "Required for Internationalized Domain Name (IDN) support"
+    },
+    "autoload": {
+        "psr-4": {
+            "JoshybaDev\\EasyBroker\\": "src/EasyBroker"
+        },
+        "files": [
+            "src/EasyBroker/Constants.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EasyBroker\\Tests\\": "tests/"
+        }
+    }
+}
